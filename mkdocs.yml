@@ -53,7 +53,21 @@ nav:
         - Sprites: misc/extras/sprites.md
         - Value Modifying Power Classes: misc/extras/value_modifying_power_classes.md
 
-theme: readthedocs
+theme: 
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
 markdown_extensions:
     - toc:
         separator: "_"
